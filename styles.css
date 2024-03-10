@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  display: flex;
+  background-color: rgb(245, 245, 245);
+}
+h1,h2, p {
+  margin: 0;
+}
+.left-section {
+  width: 40%;
+  background: url(images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+.logo-section {
+  margin-top: 200px;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(0,0,0, .4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  letter-spacing: 5px;
+
+}
+.logo-section img {
+  height: 70%;
+  width: 30%;
+}
+
+.left-section footer {
+  
+}
+
+.section-one {
+  padding: 30px;
+  margin: 50px 0 0px 0;
+
+}
+.section-one p {
+  margin-bottom: 20px;
+}
+
+.section-one,
+.section-two,
+.section-three {
+  padding-right: 50px;
+}
+
+.section-two {
+  padding: 30px;
+  background-color: white;
+}
+
+.section-two h2 {
+  margin-bottom: 15px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  
+
+}
+
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  box-shadow: 2px 3px 3px rgb(241, 241, 241);
+}
+
+input {
+  height: 20px;
+  width: 140px;
+  border: 1px solid rgb(213, 213, 213);
+  border-radius: 3px;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+
+.first-name-container,
+.last-name-container,
+.email-container,
+.tel-container,
+.psw-container,
+.confirm-psw-container {
+  display: flex;
+  flex-direction: column;
+  color: rgb(71, 71, 71);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.name-form,
+.contact-form,
+.psw-form {
+
+  display: flex;
+  gap: 40px;
+  appearance: none;
+  border: none;
+  font-size: 0.5em;
+  margin-bottom: 10px;
+}
+
+
+.section-three {
+  padding: 30px;
+
+}
+
+.section-three button {
+
+
+  appearance: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #596D48;
+  color: white;
+  height: 30px;
+  width: 180px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+
+
+.section-three a {
+  text-decoration: none;
+  color: #596D48;
+
+}
